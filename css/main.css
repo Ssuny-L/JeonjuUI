@@ -120,11 +120,12 @@ a{
 .ediya-menu__item {
   opacity: 0;
   animation: transfromNone  0.8s  0.3s  forwards;
-  transform: scaleY(10em);
+  transform: translateY(4em);
 }
-.ediya-menu__item:nth-child(1){
-  
-}
+.ediya-menu__item:nth-child(1){ animation-delay: 0.2s; }
+.ediya-menu__item:nth-child(2){ animation-delay: 0.4s; }
+.ediya-menu__item:nth-child(3){ animation-delay: 0.6s; }
+.ediya-menu__item:nth-child(4){ animation-delay: 0.8s; }
 .app-header{
   opacity: 0;
   animation: transfromNone  0.8s  0.3s forwards;
@@ -195,7 +196,7 @@ a{
   background: hsla(225, 57%, 10%, 0.9);
   color: #ffffff;
   transition: all 0.4s cubic-bezier(0.66, -0.01, 0.3, 0.99);
-  transform: translateX(105vW);
+  transform: translateX(300vW);
   backdrop-filter: blur(2px);
 }
 .app-navigation.is-active{
